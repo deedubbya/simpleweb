@@ -1,0 +1,12 @@
+<h2>Accounts</h2>
+<ul class="accounts">
+  <li *ngFor="let account of accounts">
+    <a routerLink="/detail/{{account.ID}}">
+      <span class="badge">{{account.ID}}</span> {{account.CompanyName}}
+    </a>
+    <button class="delete" title="delete account"
+            (click)="delete(account)">
+      x
+    </button>
+  </li>
+</ul>

@@ -1,0 +1,11 @@
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\SIMPLEWEB.CMS.DATA.dll.config
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\SIMPLEWEB.CMS.DATA.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\SIMPLEWEB.CMS.DATA.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\EntityFramework.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\EntityFramework.xml
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.csproj.CoreCompileInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.csproj.CopyComplete
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.pdb

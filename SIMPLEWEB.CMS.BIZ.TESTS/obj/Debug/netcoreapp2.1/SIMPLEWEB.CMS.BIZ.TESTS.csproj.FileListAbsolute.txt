@@ -1,0 +1,13 @@
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.deps.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.runtimeconfig.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.runtimeconfig.dev.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.csproj.CoreCompileInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.AssemblyInfoInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.AssemblyInfo.cs
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.pdb
