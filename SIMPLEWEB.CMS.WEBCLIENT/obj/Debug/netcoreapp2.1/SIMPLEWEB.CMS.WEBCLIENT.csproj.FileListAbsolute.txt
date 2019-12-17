@@ -1,0 +1,14 @@
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.deps.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.runtimeconfig.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.runtimeconfig.dev.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.csproj.CoreCompileInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.RazorAssemblyInfo.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.RazorAssemblyInfo.cs
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.AssemblyInfoInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.AssemblyInfo.cs
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.RazorTargetAssemblyInfo.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.WEBCLIENT\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.WEBCLIENT.csprojAssemblyReference.cache

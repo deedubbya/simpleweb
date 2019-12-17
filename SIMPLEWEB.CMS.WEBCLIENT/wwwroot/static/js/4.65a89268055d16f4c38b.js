@@ -1,0 +1,2 @@
+webpackJsonp([4],{PtLx:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("h2",[this._v("Account")]),this._v(" "),t("hr"),this._v(" "),t("router-view")],1)},staticRenderFns:[]},s=n("VU/8")({name:"Account"},r,!1,null,null,null);t.default=s.exports}});
+//# sourceMappingURL=4.65a89268055d16f4c38b.js.map

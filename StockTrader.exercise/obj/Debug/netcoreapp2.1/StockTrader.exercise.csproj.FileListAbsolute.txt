@@ -1,0 +1,13 @@
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\bin\Debug\netcoreapp2.1\StockTrader.exercise.deps.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\bin\Debug\netcoreapp2.1\StockTrader.exercise.runtimeconfig.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\bin\Debug\netcoreapp2.1\StockTrader.exercise.runtimeconfig.dev.json
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\bin\Debug\netcoreapp2.1\StockTrader.exercise.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\bin\Debug\netcoreapp2.1\StockTrader.exercise.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.csproj.CoreCompileInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.RazorAssemblyInfo.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.RazorAssemblyInfo.cs
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.AssemblyInfoInputs.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.AssemblyInfo.cs
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.RazorTargetAssemblyInfo.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.dll
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\StockTrader.exercise\obj\Debug\netcoreapp2.1\StockTrader.exercise.pdb
