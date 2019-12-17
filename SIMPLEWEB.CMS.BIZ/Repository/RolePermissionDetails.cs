@@ -38,16 +38,15 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(RolePermissionViewModel dt)
+        public int Insert(RolePermissionViewModel dt)
         {
             RolePermission dr = new RolePermission();
-            dr.rpID = dr.rpID;
             dr.rpPermissionName = dr.rpPermissionName;
             dr.rpPermissionDescription = dr.rpPermissionDescription;
             db.RolePermissions.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.rpID;
         }
 
         public bool Update(RolePermissionViewModel dt, int id)

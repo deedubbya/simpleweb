@@ -44,10 +44,9 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(UserViewModel dt)
+        public int Insert(UserViewModel dt)
         {
             User dr = new User();
-            dr.uID = dt.ID;
             dr.uStatus = dt.Status;
             dr.uFirstName = dt.FirstName;
             dr.uLastName = dt.LastName;
@@ -55,8 +54,8 @@ namespace SIMPLEWEB.CMS.BIZ
             dr.uPassword = dt.Password;
             db.Users.Add(dr);
             var Result = db.SaveChanges();
-
-            return Result == 1;
+           
+            return dr.uID;
         }
 
         public bool Update(UserViewModel dt, int id)

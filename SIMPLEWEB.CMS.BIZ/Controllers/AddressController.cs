@@ -27,7 +27,7 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
 
         [HttpGet]
         [Route("api/Address/GetAddressByID/{id}")]
-        public AddressViewModel Get(int id)
+        public AddressViewModel GetAddressByID(int id)
         {
             var detailsbyId = ad.GetByID(id);
             return detailsbyId;
@@ -35,7 +35,7 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
 
         [HttpGet]
         [Route("api/Address/GetAddressEntityByID/{id}")]
-        public AddressEntityViewModel GetDetailsByID(int id)
+        public AddressEntityViewModel GetAddressEntityByID(int id)
         {
             var detailsbyId = aed.GetByID(id);
             return detailsbyId;

@@ -6,9 +6,9 @@ C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\bin\Debug\netc
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.runtimeconfig.dev.json
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.dll
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\bin\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.pdb
-C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.csprojAssemblyReference.cache
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.csproj.CoreCompileInputs.cache
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.AssemblyInfoInputs.cache
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.AssemblyInfo.cs
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.dll
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.DATA.TESTS.csprojAssemblyReference.cache

@@ -23,8 +23,8 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
         }
 
         [HttpGet]
-        [Route("api/Account/Get")]
-        public IEnumerable<AccountViewModel> Get()
+        [Route("api/Account/GetAccounts")]
+        public IEnumerable<AccountViewModel> GetAccounts()
         {
             var details = ad.GetAll();
             return details;
@@ -32,7 +32,7 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
 
         [HttpGet]
         [Route("api/Account/GetAccountByID/{id}")]
-        public AccountViewModel GetDetailsByID(int id)
+        public AccountViewModel GetAccountByID(int id)
         {
             var detailsbyId = ad.GetByID(id);
             return detailsbyId;

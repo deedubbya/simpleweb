@@ -5,9 +5,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SIMPLEWEB.CMS.BIZ.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UserController : ApiController
     {
         private readonly IUserDetails ud;
@@ -23,8 +25,8 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
         }
 
         [HttpGet]
-        [Route("api/User/Get")]
-        public IEnumerable<UserViewModel> Get()
+        [Route("api/User/GetUsers")]
+        public IEnumerable<UserViewModel> GetUsers()
         {
             var details = ud.GetAll();
             return details;
@@ -32,7 +34,7 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
 
         [HttpGet]
         [Route("api/User/GetUserByID/{id}")]
-        public UserViewModel GetDetailsByID(int id)
+        public UserViewModel GetUserByID(int id)
         {
             var detailsbyId = ud.GetByID(id);
             return detailsbyId;
@@ -46,15 +48,37 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    ud.Insert(userModel);
-                    return Ok("Successfully added");
+                    int id = ud.Insert(userModel);
+                    return Content(HttpStatusCode.OK, new { ID = id });
+                }
+                else
+                {
+                    return Content(HttpStatusCode.BadRequest, "User Object not valid!");
+                }
+            }
+            catch(Exception ex)
+            {
+                return Content(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        [Route("api/User/UpdateUser")]
+        public IHttpActionResult UpdateUser(UserViewModel userModel)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    ud.Update(userModel, userModel.ID);
+                    return Ok("Successfully updated");
                 }
                 else
                 {
                     return BadRequest("Error please check");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message.ToString());
             }

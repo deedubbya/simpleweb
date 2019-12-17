@@ -13,6 +13,7 @@ namespace SIMPLEWEB.CMS.BIZ
         public int MenuSort { get; set; }
         public string LinkType { get; set; }
         public int? PageID { get; set; }
+        public string PageUrl { get; set; }
         public string ExternalLink { get; set; }
         public string Title { get; set; }
     }

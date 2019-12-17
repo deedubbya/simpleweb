@@ -11,7 +11,7 @@ namespace SIMPLEWEB.CMS.BIZ
     {
         IEnumerable<T> GetAll();
         T GetByID(int id);
-        bool Insert(T dt);
+        int Insert(T dt);
         bool Update(T dt, int id);
         bool Delete(T dt, int id);
     }

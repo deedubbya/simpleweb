@@ -9,5 +9,6 @@ namespace SIMPLEWEB.CMS.BIZ
     {
         public int ID { get; set; }
         public string Name { get; set; }
+        public IEnumerable<MenuNavigationItemViewModel> NavigationItems {get;set;}
     }
 }

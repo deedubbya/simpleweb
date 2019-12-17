@@ -7,6 +7,6 @@ namespace SIMPLEWEB.CMS.BIZ
 {
     public interface IMenuDetails : IGenericDetails<MenuViewModel>
     {
-
+        int Insert(string title);
     }
 }

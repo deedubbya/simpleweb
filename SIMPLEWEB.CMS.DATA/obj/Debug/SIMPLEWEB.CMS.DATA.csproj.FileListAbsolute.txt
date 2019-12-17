@@ -9,3 +9,7 @@ C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.csproj.CopyComplete
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.dll
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.csprojAssemblyReference.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.Migrations.InitialCreate.resources
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.csproj.GenerateResource.cache
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.DATA\obj\Debug\SIMPLEWEB.CMS.DATA.Migrations.mniPageUrl.resources

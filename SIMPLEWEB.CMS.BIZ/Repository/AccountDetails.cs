@@ -38,16 +38,14 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(AccountViewModel dt)
+        public int Insert(AccountViewModel dt)
         {
             Account dr = new Account();
-            dr.aID = dt.ID;
             dr.aStatus = dt.Status;
             dr.aCompanyName = dt.CompanyName;
             db.Accounts.Add(dr);
             var Result = db.SaveChanges();
-
-            return Result == 1;
+            return dr.aID;
         }
 
         public bool Update(AccountViewModel dt, int id)

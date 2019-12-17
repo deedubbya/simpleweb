@@ -42,10 +42,9 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(AddressEntityViewModel dt)
+        public int Insert(AddressEntityViewModel dt)
         {
             AddressEntity dr = new AddressEntity();
-            dr.aeID = dt.ID;
             dr.aeTableID = dt.TableID;
             dr.aeTableName = dt.TableName;
             dr.aeAddressID = dt.AddressID;
@@ -53,7 +52,7 @@ namespace SIMPLEWEB.CMS.BIZ
             db.AddressEntities.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.aeAddressID;
         }
 
         public bool Update(AddressEntityViewModel dt, int id)

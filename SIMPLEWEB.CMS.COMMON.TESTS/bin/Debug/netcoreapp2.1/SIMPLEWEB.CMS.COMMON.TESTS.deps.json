@@ -1071,7 +1071,7 @@
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
+      "sha512": "sha512-l1Ui+JbQUQrLTDN4y0YSKZKGjFi7eeR8nwl8JI6UAHgtGtx41n7v0MltE0bVmixO1Fq2h+2LjjT4KfSfB4rEyQ==",
       "path": "microsoft.csharp/4.0.1",
       "hashPath": "microsoft.csharp.4.0.1.nupkg.sha512"
     },
@@ -1253,7 +1253,7 @@
     "System.Dynamic.Runtime/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "sha512": "sha512-k5HNQfMEb7W0MrJa6lduxABIP+w8t3mHoJoW+vpdz6IdFGWSMIecvT6Saf08/3o5vEmLXQglLFORZVAxBoRWsA==",
       "path": "system.dynamic.runtime/4.0.11",
       "hashPath": "system.dynamic.runtime.4.0.11.nupkg.sha512"
     },
@@ -1512,7 +1512,7 @@
     "System.Xml.XmlDocument/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
+      "sha512": "sha512-cZcEZ7EMBvbhR0Wz/pj9I61rZpfSpbEnQI9v5f6OoGvXhtkSIBOWqLQsjV5I4zWWsQNhNmDMtrMmb7HkWgCKbQ==",
       "path": "system.xml.xmldocument/4.0.1",
       "hashPath": "system.xml.xmldocument.4.0.1.nupkg.sha512"
     },

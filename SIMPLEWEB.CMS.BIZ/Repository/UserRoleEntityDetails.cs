@@ -38,16 +38,15 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(UserRoleEntityViewModel dt)
+        public int Insert(UserRoleEntityViewModel dt)
         {
             UserRoleEntity dr = new UserRoleEntity();
-            dr.ureID = dt.ID;
             dr.ureUserID = dt.UserID;
             dr.ureUserRoleID = dt.UserRoleID;
             db.UserRoleEntities.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.ureID;
         }
 
         public bool Update(UserRoleEntityViewModel dt, int id)

@@ -34,13 +34,13 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(ContentViewModel dt)
+        public int Insert(ContentViewModel dt)
         {
             Content dr = new Content();
             dr.Id = dt.ID;            
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.Id;
         }
 
         public bool Update(ContentViewModel dt, int id)

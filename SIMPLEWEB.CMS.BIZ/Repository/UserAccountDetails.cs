@@ -34,14 +34,12 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(UserAccountViewModel dt)
+        public int Insert(UserAccountViewModel dt)
         {
             UserAccount dr = new UserAccount();
-            dr.uaId = dt.ID;
             db.UserAccounts.Add(dr);
             var Result = db.SaveChanges();
-
-            return Result == 1;
+            return dr.uaId;
         }
 
         public bool Update(UserAccountViewModel dt, int id)

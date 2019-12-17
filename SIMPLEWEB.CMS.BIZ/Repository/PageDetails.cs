@@ -30,7 +30,7 @@ namespace SIMPLEWEB.CMS.BIZ
 
         public PageViewModel GetByID(int id)
         {
-            var result = db.Pages.Where(i => true).Select(i =>
+            var result = db.Pages.Where(i => i.pID == id).Select(i =>
                 new PageViewModel
                 {
                     ID = i.pID,
@@ -44,10 +44,9 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(PageViewModel dt)
+        public int Insert(PageViewModel dt)
         {
             Page dr = new Page();
-            dr.pID = dt.ID;
             dr.pStatus = dt.Status;
             dr.pIsHomePage = dt.IsHomePage;
             dr.pVisibility = dt.Visibility;
@@ -56,7 +55,7 @@ namespace SIMPLEWEB.CMS.BIZ
             db.Pages.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.pID;
         }
 
         public bool Update(PageViewModel dt, int id)

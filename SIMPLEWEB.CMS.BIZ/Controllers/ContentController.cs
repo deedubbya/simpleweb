@@ -23,8 +23,8 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
         }
 
         [HttpGet]
-        [Route("api/Content/Get")]
-        public IEnumerable<ContentViewModel> Get()
+        [Route("api/Content/GetContents")]
+        public IEnumerable<ContentViewModel> GetContents()
         {
             var details = cd.GetAll();
             return details;
@@ -32,7 +32,7 @@ namespace SIMPLEWEB.CMS.BIZ.Controllers
 
         [HttpGet]
         [Route("api/Content/GetContentByID/{id}")]
-        public ContentViewModel GetDetailsByID(int id)
+        public ContentViewModel GetContentByID(int id)
         {
             var detailsbyId = cd.GetByID(id);
             return detailsbyId;

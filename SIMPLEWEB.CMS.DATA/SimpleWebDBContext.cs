@@ -112,7 +112,7 @@ namespace SIMPLEWEB.CMS.DATA
             modelBuilder.Entity<MenuNavigationItem>()
                 .Property(e => e.mniTitle)
                 .IsUnicode(false);
-
+                        
             modelBuilder.Entity<Page>()
                 .Property(e => e.pStatus)
                 .IsUnicode(false);

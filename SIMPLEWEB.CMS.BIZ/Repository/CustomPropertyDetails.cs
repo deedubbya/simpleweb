@@ -42,10 +42,9 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(CustomPropertyViewModel dt)
+        public int Insert(CustomPropertyViewModel dt)
         {
             CustomProperty dr = new CustomProperty();
-            dr.cpID = dt.ID;
             dr.cpTableID = dt.TableID;
             dr.cpTableName = dt.TableName;
             dr.cpName = dt.PropertyName;
@@ -53,7 +52,7 @@ namespace SIMPLEWEB.CMS.BIZ
             db.CustomProperties.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.cpID;
         }
 
         public bool Update(CustomPropertyViewModel dt, int id)

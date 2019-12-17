@@ -48,10 +48,9 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(AddressViewModel dt)
+        public int Insert(AddressViewModel dt)
         {
             Address dr = new Address();
-            dr.adrID = dt.ID;
             dr.adrLine1 = dt.LineOne;
             dr.adrLine2 = dt.LineTwo;
             dr.adrLine3 = dt.LineThree;
@@ -62,7 +61,7 @@ namespace SIMPLEWEB.CMS.BIZ
             db.Addresses.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.adrID;
         }
 
         public bool Update(AddressViewModel dt, int id)

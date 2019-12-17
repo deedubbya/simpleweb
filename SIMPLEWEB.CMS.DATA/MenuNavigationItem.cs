@@ -25,6 +25,8 @@ namespace SIMPLEWEB.CMS.DATA
 
         public int? mniPageID { get; set; }
 
+        public string mniPageUrl { get; set; }
+
         public string mniExternalLink { get; set; }
 
         [Required]

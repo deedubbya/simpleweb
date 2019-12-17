@@ -38,16 +38,15 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(MediaViewModel dt)
+        public int Insert(MediaViewModel dt)
         {
             Media dr = new Media();
-            dr.medID = dt.ID;
             dr.medFileName = dt.FileName;
             dr.medType = dt.FileType;
             db.Media.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.medID;
         }
 
         public bool Update(MediaViewModel dt, int id)

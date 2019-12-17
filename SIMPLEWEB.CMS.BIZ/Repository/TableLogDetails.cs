@@ -40,17 +40,16 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(TableLogViewModel dt)
+        public int Insert(TableLogViewModel dt)
         {
             TableLog dr = new TableLog();
-            dr.tlID = dt.ID;
             dr.tlType = dt.LogType;
             dr.tlDate = dt.LogDate;
             dr.tlDescription = dt.LogDescription;
             db.TableLogs.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.tlID;
         }
 
         public bool Update(TableLogViewModel dt, int id)

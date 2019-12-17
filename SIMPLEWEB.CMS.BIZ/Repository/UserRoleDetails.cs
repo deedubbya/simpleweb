@@ -36,15 +36,14 @@ namespace SIMPLEWEB.CMS.BIZ
             return result.FirstOrDefault();
         }
 
-        public bool Insert(UserRoleViewModel dt)
+        public int Insert(UserRoleViewModel dt)
         {
             UserRole dr = new UserRole();
-            dr.urID = dt.ID;
             dr.urRoleName = dt.RoleName;
             db.UserRoles.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.urID;
         }
 
         public bool Update(UserRoleViewModel dt, int id)

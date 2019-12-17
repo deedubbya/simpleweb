@@ -11,10 +11,11 @@ namespace SIMPLEWEB.CMS.BIZ
     public class MenuNavigationItemDetails : IMenuNavigationItemDetails
     {
         SimpleWebDBContext db = new SimpleWebDBContext();
+        IPageDetails pRepository = new PageDetails();
 
         public IEnumerable<MenuNavigationItemViewModel> GetAll()
         {
-            var items = db.MenuNavigationItems.Select(i =>
+            List<MenuNavigationItemViewModel> items = db.MenuNavigationItems.Select(i =>
                 new MenuNavigationItemViewModel
                 {
                     ID = i.mniID,
@@ -23,16 +24,17 @@ namespace SIMPLEWEB.CMS.BIZ
                     MenuSort = i.mniMenuSort,
                     Title = i.mniTitle,
                     LinkType = i.mniLinkType,
-                    ExternalLink = i.mniExternalLink,
-                    PageID = i.mniPageID
+                    PageID = i.mniPageID,
+                    PageUrl = i.mniPageUrl,
+                    ExternalLink = i.mniExternalLink
                 }
-            );
+            ).ToList();
             return items.ToList();
         }
 
         public MenuNavigationItemViewModel GetByID(int id)
         {
-            var result = db.MenuNavigationItems.Where(i => true).Select(i =>
+            MenuNavigationItemViewModel result = db.MenuNavigationItems.Where(i => true).Select(i =>
                 new MenuNavigationItemViewModel
                 {
                     ID = i.mniID,
@@ -41,17 +43,17 @@ namespace SIMPLEWEB.CMS.BIZ
                     MenuSort = i.mniMenuSort,
                     Title = i.mniTitle,
                     LinkType = i.mniLinkType,
-                    ExternalLink = i.mniExternalLink,
-                    PageID = i.mniPageID
+                    PageID = i.mniPageID,
+                    PageUrl = i.mniPageUrl,
+                    ExternalLink = i.mniExternalLink
                 }
-            );
-            return result.FirstOrDefault();
+            ).FirstOrDefault();
+            return result;
         }
 
-        public bool Insert(MenuNavigationItemViewModel dt)
+        public int Insert(MenuNavigationItemViewModel dt)
         {
             MenuNavigationItem dr = new MenuNavigationItem();
-            dr.mniID = dt.ID;
             dr.mniMenuID = dt.MenuID;
             dr.mniMenuHierarchy = dt.MenuHeirarchy;
             dr.mniMenuSort = dt.MenuSort;
@@ -59,10 +61,11 @@ namespace SIMPLEWEB.CMS.BIZ
             dr.mniLinkType = dt.LinkType;
             dr.mniExternalLink = dt.ExternalLink;
             dr.mniPageID = dt.PageID;
+            dr.mniPageUrl = dt.PageUrl;
             db.MenuNavigationItems.Add(dr);
             var Result = db.SaveChanges();
 
-            return Result == 1;
+            return dr.mniID;
         }
 
         public bool Update(MenuNavigationItemViewModel dt, int id)
@@ -76,6 +79,7 @@ namespace SIMPLEWEB.CMS.BIZ
             dr.mniLinkType = dt.LinkType;
             dr.mniExternalLink = dt.ExternalLink;
             dr.mniPageID = dt.PageID;
+            dr.mniPageUrl = dt.PageUrl;
             var Result = db.SaveChanges();
 
             return Result == 1;

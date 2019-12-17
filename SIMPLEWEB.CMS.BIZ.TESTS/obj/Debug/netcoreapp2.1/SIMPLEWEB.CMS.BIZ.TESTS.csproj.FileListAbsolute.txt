@@ -11,3 +11,4 @@ C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netco
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.AssemblyInfo.cs
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.dll
 C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.pdb
+C:\Users\DWARDLOW\source\repos\SIMPLEWEB\SIMPLEWEB.CMS.BIZ.TESTS\obj\Debug\netcoreapp2.1\SIMPLEWEB.CMS.BIZ.TESTS.csprojAssemblyReference.cache
